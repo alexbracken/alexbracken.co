@@ -1,0 +1,20 @@
+# Created by trellis-cli v1.11.1
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  alexbracken.test:
+    site_hosts:
+    - canonical: staging.alexbracken.co
+      redirects:
+      - www.staging.alexbracken.co
+    local_path: .../site
+    branch: main
+    repo: git@github.com:alexbracken/alexbracken.co.git
+    repo_subtree_path: site
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
