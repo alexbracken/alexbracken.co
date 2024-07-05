@@ -7,3 +7,4 @@ vendor/roles
 .trellis/*
 !.trellis/cli.yml
 trellis.cli.local.yml
+database_backup/*

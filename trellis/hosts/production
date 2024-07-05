@@ -1,6 +1,7 @@
 
 [production]
-alexbracken.co
+production_host ansible_host=alexbracken.co
 
 [web]
-alexbracken.co
+production_host ansible_host=alexbracken.co
+
