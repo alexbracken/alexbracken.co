@@ -4,12 +4,12 @@
 wordpress_sites:
   alexbracken.test:
     site_hosts:
-    - canonical: alexbracken.test
+    - canonical: alexbracken.co
       redirects:
-      - www.alexbracken.test
+      - www.alexbracken.co
     local_path: ../site
-    branch: master
-    repo: git@github.com:example/example.com.git
+    branch: prod
+    repo: git@github.com:alexbracken/alexbracken.co.git
     repo_subtree_path: site
     multisite:
       enabled: false
