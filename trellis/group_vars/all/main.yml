@@ -7,10 +7,6 @@ php_version: "8.2"
 ntp_timezone: Etc/UTC
 ntp_manage_config: true
 www_root: /srv/www
-php_max_file_upload: 400M
-php_max_execution_time: 300
-php_memory_limit: 256M
-
 max_journal_size: 512M
 
 # Values of raw_vars will be wrapped in `{% raw %}` to avoid templating problems if values include `{%` and `{{`.
