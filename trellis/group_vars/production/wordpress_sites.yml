@@ -6,7 +6,6 @@ wordpress_sites:
     site_hosts:
     - canonical: alexbracken.co
       redirects:
-      - www.alexbracken.co
       - http://alexbracken.co
     local_path: ../site
     branch: prod
