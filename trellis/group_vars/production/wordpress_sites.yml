@@ -5,8 +5,8 @@ wordpress_sites:
   alexbracken.test:
     site_hosts:
     - canonical: alexbracken.co
-      redirects:
-      - http://alexbracken.co
+    redirects:
+    - www.alexbracken.co
     local_path: ../site
     branch: prod
     repo: git@github.com:alexbracken/alexbracken.co.git
