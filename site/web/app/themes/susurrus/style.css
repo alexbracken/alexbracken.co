@@ -34,8 +34,17 @@ input, textarea {
  * ::placeholder { 
 	color: var( --wp--preset--color--70 );
 }
-
 */
+
+/* Apply color to overscroll */ 
+html:before {
+	content: '';
+	position: fixed;
+	width: 100%;
+	height: 999px;
+	top: -999px;
+	background-color: var(--wp--preset--color--100);
+  }
 
 /* STRUCTURE */
 
