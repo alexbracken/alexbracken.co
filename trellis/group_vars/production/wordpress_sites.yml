@@ -2,7 +2,7 @@
 # Documentation: https://roots.io/trellis/docs/wordpress-sites/
 
 wordpress_sites:
-  alexbracken.test:
+  alexbracken.co:
     site_hosts:
     - canonical: alexbracken.co
     redirects:
@@ -14,11 +14,12 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: enabled
       provider: letsencrypt
       hsts_include_subdomains: true
     cache:
-      enabled: false
+      enabled: true
+      duration: 120s
     env:
       db_name: u678199590_zEbgq
       db_user: u678199590_ETClr

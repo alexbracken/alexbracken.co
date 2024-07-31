@@ -2,7 +2,7 @@
 # Documentation: https://roots.io/trellis/docs/wordpress-sites/
 
 wordpress_sites:
-  alexbracken.test:
+  alexbracken.co:
     site_hosts:
     - canonical: alexbracken.test
       redirects:
