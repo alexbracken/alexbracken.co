@@ -14,12 +14,11 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: enabled
+      enabled: true
       provider: letsencrypt
       hsts_include_subdomains: true
     cache:
-      enabled: true
-      duration: 120s
+      enabled: false
     env:
       db_name: u678199590_zEbgq
       db_user: u678199590_ETClr

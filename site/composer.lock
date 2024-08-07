@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3bdc7227747f8f2a96e3c6d327f8567d",
+    "content-hash": "eb1d5168e5f0ffc8da2672e578eea43c",
     "packages": [
         {
             "name": "composer/installers",
@@ -1181,6 +1181,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/litespeed-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/safe-svg",
+            "version": "2.2.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/safe-svg/",
+                "reference": "tags/2.2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.2.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/safe-svg/"
         },
         {
             "name": "wpackagist-plugin/webp-uploads",

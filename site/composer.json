@@ -45,7 +45,8 @@
     "wpackagist-plugin/webp-uploads": "^2.0",
     "wpackagist-plugin/litespeed-cache": "6.2.0.1",
     "wpackagist-plugin/autodescription": "^5.0",
-    "wpackagist-plugin/dominant-color-images": "^1.1"
+    "wpackagist-plugin/dominant-color-images": "^1.1",
+    "wpackagist-plugin/safe-svg": "^2.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
