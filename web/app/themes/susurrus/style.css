@@ -1,0 +1,278 @@
+/*
+Theme Name: Susurrus
+Theme URI: 
+Author: 
+Author URI: 
+Description: Clone of Hideo for alexbracken.co
+Requires at least: 6.0
+Tested up to: 6.4.3
+Requires PHP: 5.7
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: susurrus
+Tags: blog, news, portfolio, grid-layout, one-column, two-columns, three-columns, wide-blocks, block-patterns, block-styles, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, sticky-post, threaded-comments, translation-ready
+*/
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.15em;
+}
+
+input, textarea {
+	color: inherit;
+	font: inherit;
+	letter-spacing: inherit;
+}
+/* Uncomment for WP default placeholder
+ * ::placeholder { 
+	color: var( --wp--preset--color--70 );
+}
+*/
+
+/* Apply color to overscroll */ 
+html{
+	background-color: var(--wp--preset--color--100);
+  }
+
+/* Style lazy-loaded images */
+img[data-lazyloaded]{
+    opacity: 0;
+}
+
+img.litespeed-loaded{
+    -webkit-transition: opacity .5s linear 0.2s;
+    -moz-transition: opacity .5s linear 0.2s;
+    transition: opacity .5s linear 0.2s;
+    opacity: 1;
+}
+
+/* STRUCTURE */
+
+@media (max-width: 781px) {
+	:root:not(.editor-styles-wrapper) .site-header-desktop,
+	:root:not(.editor-styles-wrapper) .site-sidebar-col {
+		display: none !important;
+	}
+}
+
+@media (min-width: 782px) {
+	:root:not(.editor-styles-wrapper) .site-header {
+		display: none !important;
+	}
+}
+
+/* HELPER CLASSES */
+
+.hide-empty:empty {
+	display: none !important;
+}
+.modal-is-open .invert {
+color: white
+}
+.bring-forward{
+z-index: 999999;
+visibility: visible;
+display: block;
+}
+
+.fix{
+	position: fixed;
+}
+
+
+/* QUOTE & PULLQUOTE */
+
+.is-style-has-quotation-mark:before,
+.wp-block-pullquote blockquote:before {
+	content: "“";
+	display: block;
+	font-family: "Open Sauce Two", ui-sans-serif, sans-serif;
+	font-size: clamp( 80px, 3em, 128px );
+	line-height: .8;
+	margin-left: -.05em;
+	margin-bottom: .3em;
+	max-height: .3em;
+}
+
+/* CUSTOMIZATIONS */
+.sidebar{
+position: sticky;
+}
+
+.thumbnail{
+	position: relative;
+	
+}
+
+.thumbnailoverlay{
+	position: absolute;
+	opacity: 0%;
+	transition: all 0.3s ease-in-out;
+	background-color: red;
+	z-index: 9999;
+	height: 100%;
+	width: 100%;
+	left: 100%
+}
+
+.thumbnail:hover .thumbnailoverlay{
+	opacity: 100%;
+	left: 50%;
+}
+
+.invert .wp-block-heading > a:where(:not(.wp-element-button)), .invert .wp-block-categories-list a:where(:not(.wp-element-button)), p > a, .invert.wp-block-post-navigation-link a, .invert .wp-block-site-title a, .invert .link a{
+	background: linear-gradient(0deg, var(--wp--preset--color--0), var(--wp--preset--color--0)) no-repeat right bottom / 0 var(--bg-h);
+	}
+
+.wp-block-post-title a:where(:not(.wp-element-button)), .wp-block-heading > a:where(:not(.wp-element-button)), .wp-block-categories-list a:where(:not(.wp-element-button)), p > a, .wp-block-post-navigation-link a, .wp-block-site-title a, .link a{
+background: linear-gradient(0deg, var(--wp--preset--color--100), var(--wp--preset--color--100)) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+ padding-bottom: 2px;
+  --bg-h: 2px;
+text-decoration: none!important;
+display: inline!important;
+}
+
+.wp-block-post-navigation-link.wp-block-post-navigation-link a:hover .post-navigation-link__title{
+text-decoration:none!important;
+}
+
+
+/* ANIMATIONS */
+@media (hover: hover) {
+    
+	.wp-block-post-title a:where(:not(.wp-element-button)):hover, .wp-block-heading > a:where(:not(.wp-element-button)):hover, 
+	.wp-block-categories-list a:where(:not(.wp-element-button)):hover, .wp-block-navigation a:where(:not(.wp-element-button)):hover, p > a:hover, .wp-block-post-navigation-link a:hover, .wp-block-site-title a:hover, .link a:hover{
+	  background-size: 100% var(--bg-h);
+	  background-position-x: left;
+	}
+
+	.thumbnail, .wp-lightbox-container img{
+	transition: transform 300ms cubic-bezier(0.33, 1, 0.68, 1);
+	}
+	.thumbnail:hover, .wp-lightbox-container img:hover{
+		transform: scale(1.02);
+	}
+	.thumbnail::before, .wp-lightbox-container img::before{
+		content:"";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+
+		-webkit-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.15);
+		-moz-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.15);
+		box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.15);
+
+		border-radius: 5px;
+
+		transition: opacity 500ms cubic-bezier(0.33, 1, 0.68, 1);
+	}
+	.thumbnail:hover::before, .wp-lightbox-container img:hover::before{
+		opacity: 1;
+	}
+}
+	
+
+
+/* FORM STYLES (REMOVED)
+.wpcf7-form input[type="text"], 
+.wpcf7-form input[type="email"], 
+.wpcf7-form input[type="url"], 
+.wpcf7-form input[type="password"], 
+.wpcf7-form input[type="search"], 
+.wpcf7-form input[type="number"], 
+.wpcf7-form input[type="tel"], 
+.wpcf7-form textarea {
+    color: #black;
+    padding: 12px 16px;
+    margin: 10px 0;
+    border-radius: 7px;
+    border: solid rgba(0,0,0,0.1) 1px;
+box-shadow: 2px 2px 9px -3px rgba(0,0,0,0.1);
+}
+.wpcf7-form input[type="submit"]{
+     color: #black;
+    padding: 12px 16px;
+    margin: 10px 0;
+    border-radius: 7px;
+    border: solid rgba(0,0,0,0.1) 1px;
+background-color: white;
+box-shadow: 2px 2px 9px -3px rgba(0,0,0,0.1);
+transition: border 0.3s ease-in-out;
+}
+
+.wpcf7-form input[type="submit"]:hover{
+border-color: rgba(0,0,0,0.7);
+}
+
+.wpcf7-form p {
+    margin: 0 0 28px;
+}
+
+.wpcf7-text:focus, 
+.wpcf7-textarea:focus {
+    outline: 1px solid rgba(84, 222, 197, 0.9);
+    outline-offset: 0;
+}
+
+.wpcf7 form .wpcf7-response-output{
+border: none!important;
+padding: 15px;
+border-radius: 7px;
+margin-left: 0;
+border-color: none!important;
+background-color: ##00a0d2;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output{
+border: none!important;
+padding: 15px;
+border-radius: 7px;
+margin-left: 0;
+background-color: #ffb900;
+}
+
+FORM STYLES (REMOVED) */
+
+
+/* DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+	body{
+	--wp--preset--color--0: #000;
+    --wp--preset--color--10: #0e0e0e;
+    --wp--preset--color--30: #1e1e1e;
+    --wp--preset--color--70: #898989;
+    --wp--preset--color--100: #fff;
+	}
+	
+	.invert{
+		color: var(--wp--preset--color--100);
+		background-color: var(--wp--preset--color--0);
+	}
+	
+	.invert a:where(:not(.wp-element-button)){
+		color: var(--wp--preset--color--100)!important;
+	}
+	
+	.invert >a:where(:not(.wp-element-button)){
+		color: unset;
+	}
+	
+	.invert.has-100-background-color{
+		background-color: var(--wp--preset--color--0)!important;
+	}
+	.invert.has-0-color{
+		color: var(----wp--preset--color--100)!important;
+	}
+	
+	
+}
