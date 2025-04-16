@@ -47,7 +47,7 @@
     "wpackagist-theme/twentytwentyfour": "^1.2",
     "wpackagist-plugin/google-site-kit": "^1.138",
     "wpackagist-plugin/webp-uploads": "^2.2",
-    "wpackagist-plugin/litespeed-cache": "6.2.0.1",
+    "wpackagist-plugin/litespeed-cache": "^7.0",
     "wpackagist-plugin/autodescription": "^5.0.6",
     "wpackagist-plugin/dominant-color-images": "^1.1.2",
     "wpackagist-plugin/safe-svg": "^2.2.6",
