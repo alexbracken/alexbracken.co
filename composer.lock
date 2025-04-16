@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc33d891fa6d06fa8247ca5672af6b89",
+    "content-hash": "0631d7da234b227045bc4089178a5277",
     "packages": [
         {
             "name": "alexbracken/content-gate",
@@ -1279,6 +1279,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-smartcrop/"
+        },
+        {
+            "name": "wpackagist-theme/kanso",
+            "version": "1.0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/kanso/",
+                "reference": "1.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/kanso.1.0.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/kanso/"
         },
         {
             "name": "wpackagist-theme/twentytwentyfour",
