@@ -1,0 +1,3 @@
+[submodule "web/app/themes/kanso"]
+	path = web/app/themes/kanso
+	url = https://github.com/richtabor/kanso
