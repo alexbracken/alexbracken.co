@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58c0ab53f6435121a3bcf1d2384c93ed",
+    "content-hash": "08e9b6fc70fa7ece8442f744f3c6e075",
     "packages": [
         {
             "name": "alexbracken/content-gate",
