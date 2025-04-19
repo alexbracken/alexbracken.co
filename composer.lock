@@ -388,27 +388,47 @@
         },
         {
             "name": "richtabor/kanso",
-            "version": "1.0.5.1",
+            "version": "1.0.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexbracken/kanso.git",
-                "reference": "b9865f78763d23458bd81b2e9559c33bb61799d6"
+                "reference": "e7c91cbdda73216e7224f5cb296888afa21f4bd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/b9865f78763d23458bd81b2e9559c33bb61799d6",
-                "reference": "b9865f78763d23458bd81b2e9559c33bb61799d6",
+                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/e7c91cbdda73216e7224f5cb296888afa21f4bd4",
+                "reference": "e7c91cbdda73216e7224f5cb296888afa21f4bd4",
                 "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^2.3",
+                "php": ">=8.0"
             },
             "require-dev": {
                 "squizlabs/php_codesniffer": "^3.10",
                 "wp-coding-standards/wpcs": "^3.1"
             },
-            "type": "library",
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rich Tabor",
+                    "homepage": "https://rich.blog"
+                }
+            ],
+            "description": "Theme for rich.blog",
+            "homepage": "https://github.com/richtabor/kanso",
+            "keywords": [
+                "plugin",
+                "roots",
+                "wordpress"
+            ],
             "support": {
-                "source": "https://github.com/alexbracken/kanso/tree/1.0.5.1"
+                "source": "https://github.com/alexbracken/kanso/tree/1.0.5.4"
             },
-            "time": "2025-04-19T01:18:51+00:00"
+            "time": "2025-04-19T02:59:21+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
