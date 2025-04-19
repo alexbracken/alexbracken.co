@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f6b3c576b7615b1c8e8000c36533467",
+    "content-hash": "58c0ab53f6435121a3bcf1d2384c93ed",
     "packages": [
         {
             "name": "alexbracken/content-gate",
@@ -388,33 +388,27 @@
         },
         {
             "name": "richtabor/kanso",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "web/app/dev/themes/kanso",
+            "version": "1.0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexbracken/kanso.git",
                 "reference": "b9865f78763d23458bd81b2e9559c33bb61799d6"
             },
-            "require": {
-                "composer/installers": "^2.3",
-                "php": ">=8.0"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/b9865f78763d23458bd81b2e9559c33bb61799d6",
+                "reference": "b9865f78763d23458bd81b2e9559c33bb61799d6",
+                "shasum": ""
             },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Rich Tabor",
-                    "homepage": "https://rich.blog"
-                }
-            ],
-            "homepage": "https://github.com/richtabor/content-gate",
-            "keywords": [
-                "plugin",
-                "roots",
-                "wordpress"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.10",
+                "wp-coding-standards/wpcs": "^3.1"
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/alexbracken/kanso/tree/1.0.5.1"
+            },
+            "time": "2025-04-19T01:18:51+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
