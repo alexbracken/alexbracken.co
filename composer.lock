@@ -4,25 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08e9b6fc70fa7ece8442f744f3c6e075",
+    "content-hash": "3545e4c19fdc182ed62d78a7c3774634",
     "packages": [
         {
             "name": "alexbracken/content-gate",
-            "version": "v0.1.1",
+            "version": "0.1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexbracken/content-gate.git",
-                "reference": "ec06467ccbee851d18598c07f48cdea5ed526204"
+                "reference": "2d76503c61e6e1855c31f1221453a363814e5520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/content-gate/zipball/ec06467ccbee851d18598c07f48cdea5ed526204",
-                "reference": "ec06467ccbee851d18598c07f48cdea5ed526204",
+                "url": "https://api.github.com/repos/alexbracken/content-gate/zipball/2d76503c61e6e1855c31f1221453a363814e5520",
+                "reference": "2d76503c61e6e1855c31f1221453a363814e5520",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^2.3",
                 "php": ">=8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.75"
             },
             "type": "wordpress-plugin",
             "license": [
@@ -43,10 +46,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/alexbracken/content-gate/tree/v0.1.1",
+                "source": "https://github.com/alexbracken/content-gate/tree/1.0.1.3",
                 "issues": "https://github.com/alexbracken/content-gate/issues"
             },
-            "time": "2025-04-18T17:56:16+00:00"
+            "time": "2025-04-20T22:52:38+00:00"
         },
         {
             "name": "composer/installers",
@@ -796,86 +799,6 @@
             "time": "2018-08-10T14:18:38+00:00"
         },
         {
-            "name": "roots/wp-password-bcrypt",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/roots/wp-password-bcrypt.git",
-                "reference": "15f0d8919fb3731f79a0cf2fb47e1baecb86cb26"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/roots/wp-password-bcrypt/zipball/15f0d8919fb3731f79a0cf2fb47e1baecb86cb26",
-                "reference": "15f0d8919fb3731f79a0cf2fb47e1baecb86cb26",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6.0"
-            },
-            "require-dev": {
-                "brain/monkey": "^2.6",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "mockery/mockery": "^1.4",
-                "phpcompatibility/php-compatibility": "^9.3",
-                "phpunit/phpunit": "<= 9.3",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "wp-password-bcrypt.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Scott Walkinshaw",
-                    "email": "scott.walkinshaw@gmail.com",
-                    "homepage": "https://github.com/swalkinshaw"
-                },
-                {
-                    "name": "QWp6t",
-                    "homepage": "https://github.com/qwp6t"
-                },
-                {
-                    "name": "Brandon Nifong",
-                    "homepage": "https://github.com/log1x"
-                },
-                {
-                    "name": "Jan Pingel",
-                    "email": "jpingel@bitpiston.com",
-                    "homepage": "http://janpingel.com"
-                }
-            ],
-            "description": "WordPress plugin which replaces wp_hash_password and wp_check_password's phpass hasher with PHP 5.5's password_hash and password_verify using bcrypt.",
-            "homepage": "https://roots.io/plugins/wp-password-bcrypt",
-            "keywords": [
-                "bcrypt",
-                "passwords",
-                "wordpress"
-            ],
-            "support": {
-                "forum": "https://discourse.roots.io/",
-                "issues": "https://github.com/roots/wp-password-bcrypt/issues",
-                "source": "https://github.com/roots/wp-password-bcrypt/tree/1.1.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/roots",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/rootsdev",
-                    "type": "patreon"
-                }
-            ],
-            "abandoned": "roots/wp-password-bcrypt",
-            "time": "2021-10-31T01:18:58+00:00"
-        },
-        {
             "name": "symfony/polyfill-ctype",
             "version": "v1.31.0",
             "source": {
@@ -1197,6 +1120,24 @@
                 }
             ],
             "time": "2024-07-20T21:52:34+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "6.4.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/6.4.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.4.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
             "name": "wpackagist-plugin/autodescription",
