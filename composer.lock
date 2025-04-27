@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee8a3e532332be7852db5dde23e078a0",
+    "content-hash": "75d362a472bd6e2db42622f31c1d860d",
     "packages": [
         {
             "name": "composer/installers",
@@ -1077,24 +1077,6 @@
             "time": "2024-07-20T21:52:34+00:00"
         },
         {
-            "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "6.4.0.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/6.4.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.4.0.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
-        },
-        {
             "name": "wpackagist-plugin/autodescription",
             "version": "5.1.2",
             "source": {
@@ -1131,24 +1113,6 @@
             "homepage": "https://wordpress.org/plugins/dark-mode-toggle-block/"
         },
         {
-            "name": "wpackagist-plugin/dominant-color-images",
-            "version": "1.2.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/dominant-color-images/",
-                "reference": "tags/1.2.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/dominant-color-images.1.2.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/dominant-color-images/"
-        },
-        {
             "name": "wpackagist-plugin/google-site-kit",
             "version": "1.151.0",
             "source": {
@@ -1167,60 +1131,6 @@
             "homepage": "https://wordpress.org/plugins/google-site-kit/"
         },
         {
-            "name": "wpackagist-plugin/litespeed-cache",
-            "version": "7.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
-                "reference": "tags/7.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.7.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/litespeed-cache/"
-        },
-        {
-            "name": "wpackagist-plugin/post-type-switcher",
-            "version": "3.3.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/post-type-switcher/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-type-switcher.zip?timestamp=1709217383"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/post-type-switcher/"
-        },
-        {
-            "name": "wpackagist-plugin/safe-svg",
-            "version": "2.3.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/2.3.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.3.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/safe-svg/"
-        },
-        {
             "name": "wpackagist-plugin/webp-uploads",
             "version": "2.5.1",
             "source": {
@@ -1237,24 +1147,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/webp-uploads/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-smartcrop",
-            "version": "2.0.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-smartcrop/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-smartcrop.zip?timestamp=1726240771"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-smartcrop/"
         },
         {
             "name": "wpackagist-theme/twentytwentyfour",
@@ -2463,12 +2355,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "3fe23dd6d9c692ec019ba1cff225f960699a0da3"
+                "reference": "c96e48da0eb4ba3f14ca6ab39a6fd5025a5d0838"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3fe23dd6d9c692ec019ba1cff225f960699a0da3",
-                "reference": "3fe23dd6d9c692ec019ba1cff225f960699a0da3",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c96e48da0eb4ba3f14ca6ab39a6fd5025a5d0838",
+                "reference": "c96e48da0eb4ba3f14ca6ab39a6fd5025a5d0838",
                 "shasum": ""
             },
             "conflict": {
@@ -2590,7 +2482,7 @@
                 "contao/managed-edition": "<=1.5",
                 "corveda/phpsandbox": "<1.3.5",
                 "cosenary/instagram": "<=2.3",
-                "craftcms/cms": "<4.13.8|>=5,<5.5.5",
+                "craftcms/cms": "<=4.14.14|>=5,<=5.6.16",
                 "croogo/croogo": "<4",
                 "cuyz/valinor": "<0.12",
                 "czim/file-handling": "<1.5|>=2,<2.3",
@@ -2901,7 +2793,7 @@
                 "mojo42/jirafeau": "<4.4",
                 "mongodb/mongodb": ">=1,<1.9.2",
                 "monolog/monolog": ">=1.8,<1.12",
-                "moodle/moodle": "<4.3.10|>=4.4,<4.4.6|>=4.5.0.0-beta,<4.5.2",
+                "moodle/moodle": "<4.3.12|>=4.4,<4.4.8|>=4.5.0.0-beta,<4.5.4",
                 "mos/cimage": "<0.7.19",
                 "movim/moxl": ">=0.8,<=0.10",
                 "movingbytes/social-network": "<=1.2.1",
@@ -3385,7 +3277,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-23T02:32:45+00:00"
+            "time": "2025-04-25T17:04:56+00:00"
         },
         {
             "name": "sebastian/diff",

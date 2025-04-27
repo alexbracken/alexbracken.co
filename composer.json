@@ -50,14 +50,8 @@
     "wpackagist-theme/twentytwentyfour": "^1.2",
     "wpackagist-plugin/google-site-kit": "^1.138",
     "wpackagist-plugin/webp-uploads": "^2.2",
-    "wpackagist-plugin/litespeed-cache": "^7.0",
     "wpackagist-plugin/autodescription": "^5.0.6",
-    "wpackagist-plugin/dominant-color-images": "^1.1.2",
-    "wpackagist-plugin/safe-svg": "^2.2.6",
-    "wpackagist-plugin/wp-smartcrop": "^2.0.10",
     "richtabor/kanso": "^1.0",
-    "wpackagist-plugin/advanced-custom-fields": "^6.4",
-    "wpackagist-plugin/post-type-switcher": "^3.3",
     "wpackagist-plugin/dark-mode-toggle-block": "^1.0"
   },
   "require-dev": {
