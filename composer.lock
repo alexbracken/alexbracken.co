@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75d362a472bd6e2db42622f31c1d860d",
+    "content-hash": "5b86a337401c7c1ee38f4e7a925ad594",
     "packages": [
         {
             "name": "composer/installers",
@@ -346,16 +346,16 @@
         },
         {
             "name": "richtabor/kanso",
-            "version": "1.0.5.4",
+            "version": "1.0.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexbracken/kanso.git",
-                "reference": "e7c91cbdda73216e7224f5cb296888afa21f4bd4"
+                "reference": "0f92f2860fc9df0e75ff98cf8ceafb179b17de42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/e7c91cbdda73216e7224f5cb296888afa21f4bd4",
-                "reference": "e7c91cbdda73216e7224f5cb296888afa21f4bd4",
+                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/0f92f2860fc9df0e75ff98cf8ceafb179b17de42",
+                "reference": "0f92f2860fc9df0e75ff98cf8ceafb179b17de42",
                 "shasum": ""
             },
             "require": {
@@ -384,9 +384,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/alexbracken/kanso/tree/1.0.5.4"
+                "source": "https://github.com/alexbracken/kanso/tree/1.0.6.2"
             },
-            "time": "2025-04-19T02:59:21+00:00"
+            "time": "2025-04-28T20:46:48+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
