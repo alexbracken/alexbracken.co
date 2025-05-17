@@ -52,9 +52,7 @@
     "wpackagist-plugin/webp-uploads": "^2.2",
     "wpackagist-plugin/autodescription": "^5.0.6",
     "wpackagist-plugin/dark-mode-toggle-block": "^1.0",
-    "richtabor/kanso": "^1.0",
-    "alexbracken/content-gate": "dev-regenerate",
-    "wpackagist-plugin/restrict-content": "^3.2"
+    "richtabor/kanso": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.10.3",
