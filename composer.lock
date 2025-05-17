@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b86a337401c7c1ee38f4e7a925ad594",
+    "content-hash": "ac9282c7af48bc09b43cf94feee46d7a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1129,6 +1129,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-site-kit/"
+        },
+        {
+            "name": "wpackagist-plugin/restrict-content",
+            "version": "3.2.14.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/restrict-content/",
+                "reference": "tags/3.2.14.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/restrict-content.3.2.14.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/restrict-content/"
         },
         {
             "name": "wpackagist-plugin/webp-uploads",
