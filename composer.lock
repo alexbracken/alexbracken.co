@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a963e8cc29123c153d6ae09007fef5bb",
+    "content-hash": "d1cc511968c94278dc7db6f416bf4adb",
     "packages": [
         {
             "name": "composer/installers",
@@ -1148,6 +1148,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/restrict-content/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-membership",
+            "version": "4.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-membership/",
+                "reference": "tags/4.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-membership.4.6.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-membership/"
         },
         {
             "name": "wpackagist-plugin/user-registration",
