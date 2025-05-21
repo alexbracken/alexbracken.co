@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1cc511968c94278dc7db6f416bf4adb",
+    "content-hash": "a9371fb5207c1da4e490f9580dd7f687",
     "packages": [
         {
             "name": "composer/installers",
@@ -754,6 +754,15 @@
             "time": "2018-08-10T14:18:38+00:00"
         },
         {
+            "name": "simple-membership/cloudflare-turnstile",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://simple-membership-plugin.com/wp-content/uploads/addons/swpm-cloudflare-turnstile.zip"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "symfony/polyfill-ctype",
             "version": "v1.32.0",
             "source": {
@@ -1166,6 +1175,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-membership/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-membership-custom-messages",
+            "version": "2.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-membership-custom-messages/",
+                "reference": "tags/2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-membership-custom-messages.2.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-membership-custom-messages/"
         },
         {
             "name": "wpackagist-plugin/user-registration",
