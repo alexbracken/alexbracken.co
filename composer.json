@@ -48,7 +48,22 @@
           "url": "https://simple-membership-plugin.com/wp-content/uploads/addons/swpm-cloudflare-turnstile.zip"
         }
       }
-    }
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "simple-membership/form-builder",
+          "version": "1.0.0",
+          "type": "wordpress-plugin",
+          "dist": {
+              "type": "path",
+              "url": "web/app/local-plugins/swpm-form-builder"
+          },
+          "options": {
+              "symlink": false
+          }
+      }
+  }
   ],
   "require": {
     "php": ">=8.0",
@@ -69,7 +84,8 @@
     "wpackagist-plugin/user-registration": "^4.2",
     "wpackagist-plugin/simple-membership": "^4.6",
     "wpackagist-plugin/simple-membership-custom-messages": "^2.5",
-    "simple-membership/cloudflare-turnstile": "^1.0"
+    "simple-membership/cloudflare-turnstile": "^1.0",
+    "simple-membership/form-builder": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.10.3",
@@ -79,6 +95,7 @@
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
+    "secure-http":false,
     "allow-plugins": {
       "composer/installers": true,
       "roots/wordpress-core-installer": true
