@@ -104,7 +104,7 @@ p code {
 }
 
 /* Simple transition for links */
-p>a:where(:not(
+p a:where(:not(
 	.wp-element-button
 	))
 	{
@@ -115,7 +115,7 @@ p>a:where(:not(
 		transition: color ease 0.3s;
 }
 
-p > a:where(:not(
+p a:where(:not(
 	.wp-element-button,
 	.wp-block-site-logo a,
 	.wp-block-social-link-anchor
@@ -132,7 +132,7 @@ p > a:where(:not(
 		transition: all ease 0.3s;
 }
 
-p>a:where(:not(
+p a:where(:not(
 	.wp-element-button,
 	.wp-block-site-logo a,
 	.wp-block-social-link-anchor
