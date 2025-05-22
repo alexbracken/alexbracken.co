@@ -126,13 +126,8 @@ a:where(:not(
 		height: 1px;
 		left: 0;
 		bottom: 0;
-		background-color: $underlineColor;
+		background-color: var(--wp--preset--color--custom-link-underline);
 		transition: all ease 0.3s;
-}
-a:where(:not(
-	.wp-element-button
-	)):hover {
-    	color: white;
 }
 
 a:where(:not(
