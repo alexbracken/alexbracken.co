@@ -57,7 +57,7 @@
           "type": "wordpress-plugin",
           "dist": {
               "type": "path",
-              "url": "web/app/local-plugins/swpm-form-builder",
+              "url": "~/development/web/form-builder",
               "options": {
                 "symlink": false
               }
