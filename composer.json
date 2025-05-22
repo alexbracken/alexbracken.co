@@ -57,10 +57,10 @@
           "type": "wordpress-plugin",
           "dist": {
               "type": "path",
-              "url": "web/app/local-plugins/swpm-form-builder"
-          },
-          "options": {
-              "symlink": false
+              "url": "web/app/local-plugins/swpm-form-builder",
+              "options": {
+                "symlink": false
+              }
           }
       }
   }
