@@ -4,8 +4,40 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37dd8040ac9c824d11d1f683896de365",
+    "content-hash": "d424b42b964beb10132b2f9c614db7cb",
     "packages": [
+        {
+            "name": "alexbracken/swpm-customizations",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:alexbracken/swpm-customizations.git",
+                "reference": "f89a9771e93fc99a128fdf9f6cdafefa2380263f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexbracken/swpm-customizations/zipball/f89a9771e93fc99a128fdf9f6cdafefa2380263f",
+                "reference": "f89a9771e93fc99a128fdf9f6cdafefa2380263f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^2.3"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "alexbracken",
+                    "email": "alex@alexbracken.co"
+                }
+            ],
+            "description": "Add functionality to alexbracken.co membership system",
+            "support": {
+                "source": "https://github.com/alexbracken/swpm-customizations/tree/main",
+                "issues": "https://github.com/alexbracken/swpm-customizations/issues"
+            },
+            "time": "2025-05-22T01:50:07+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v2.3.0",
@@ -759,15 +791,6 @@
             "dist": {
                 "type": "zip",
                 "url": "https://simple-membership-plugin.com/wp-content/uploads/addons/swpm-cloudflare-turnstile.zip"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "simple-membership/form-builder",
-            "version": "1.0.0",
-            "dist": {
-                "type": "path",
-                "url": "web/app/local-plugins/swpm-form-builder"
             },
             "type": "wordpress-plugin"
         },
@@ -4577,6 +4600,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "alexbracken/swpm-customizations": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,

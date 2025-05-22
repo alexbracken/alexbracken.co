@@ -50,20 +50,9 @@
       }
     },
     {
-      "type": "package",
-      "package": {
-          "name": "simple-membership/form-builder",
-          "version": "1.0.0",
-          "type": "wordpress-plugin",
-          "dist": {
-              "type": "path",
-              "url": "~/development/web/form-builder",
-              "options": {
-                "symlink": false
-              }
-          }
-      }
-  }
+      "type": "vcs",
+      "url": "git@github.com:alexbracken/swpm-customizations.git"
+    }
   ],
   "require": {
     "php": ">=8.0",
@@ -85,7 +74,7 @@
     "wpackagist-plugin/simple-membership": "^4.6",
     "wpackagist-plugin/simple-membership-custom-messages": "^2.5",
     "simple-membership/cloudflare-turnstile": "^1.0",
-    "simple-membership/form-builder": "^1.0"
+    "alexbracken/swpm-customizations": "dev-main"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.10.3",
