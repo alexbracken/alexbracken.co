@@ -128,7 +128,7 @@ p a:where(:not(
 		height: 1.5px;
 		left: 0;
 		bottom: 0;
-		background-color: var(--wp--preset--color--custom-link-background);
+		background-color: var(--wp--preset--color--custom-link-underline);
 		transition: all ease 0.3s;
 }
 
