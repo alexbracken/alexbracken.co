@@ -4,40 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52a24bb2e6e085c8acf64ac2537c1f76",
+    "content-hash": "a0e5c46ba1f79d938b5926147de569a4",
     "packages": [
-        {
-            "name": "alexbracken/swpm-customizations",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:alexbracken/swpm-customizations.git",
-                "reference": "0a628e21c34c939001785dfebab30e1517b93f95"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/swpm-customizations/zipball/0a628e21c34c939001785dfebab30e1517b93f95",
-                "reference": "0a628e21c34c939001785dfebab30e1517b93f95",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^2.3"
-            },
-            "default-branch": true,
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "alexbracken",
-                    "email": "alex@alexbracken.co"
-                }
-            ],
-            "description": "Add functionality to alexbracken.co membership system",
-            "support": {
-                "source": "https://github.com/alexbracken/swpm-customizations/tree/main",
-                "issues": "https://github.com/alexbracken/swpm-customizations/issues"
-            },
-            "time": "2025-05-23T17:40:24+00:00"
-        },
         {
             "name": "composer/installers",
             "version": "v2.3.0",
@@ -1261,6 +1229,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/user-registration/"
+        },
+        {
+            "name": "wpackagist-plugin/userswp",
+            "version": "1.2.34",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/userswp/",
+                "reference": "tags/1.2.34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/userswp.1.2.34.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/userswp/"
         },
         {
             "name": "wpackagist-plugin/webp-uploads",
@@ -4618,7 +4604,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "alexbracken/swpm-customizations": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
