@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexbracken/swpm-customizations.git",
-                "reference": "c9ee6ffcea622a24ee8a56c50cd7a16c9914c8c0"
+                "reference": "20f0d4c9d2651499ca7a398d87a03ad4a080f3c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/swpm-customizations/zipball/c9ee6ffcea622a24ee8a56c50cd7a16c9914c8c0",
-                "reference": "c9ee6ffcea622a24ee8a56c50cd7a16c9914c8c0",
+                "url": "https://api.github.com/repos/alexbracken/swpm-customizations/zipball/20f0d4c9d2651499ca7a398d87a03ad4a080f3c2",
+                "reference": "20f0d4c9d2651499ca7a398d87a03ad4a080f3c2",
                 "shasum": ""
             },
             "require": {
@@ -36,7 +36,7 @@
                 "source": "https://github.com/alexbracken/swpm-customizations/tree/main",
                 "issues": "https://github.com/alexbracken/swpm-customizations/issues"
             },
-            "time": "2025-05-23T16:54:17+00:00"
+            "time": "2025-05-23T17:08:14+00:00"
         },
         {
             "name": "composer/installers",
