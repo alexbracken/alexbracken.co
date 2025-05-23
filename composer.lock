@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0e5c46ba1f79d938b5926147de569a4",
+    "content-hash": "3fbfa59560db6be9be88943f6d824dc5",
     "packages": [
         {
             "name": "composer/installers",
@@ -1105,6 +1105,24 @@
             "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
+            "name": "wpackagist-plugin/custom-registration-form-builder-with-submission-manager",
+            "version": "6.0.4.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-registration-form-builder-with-submission-manager/",
+                "reference": "tags/6.0.4.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-registration-form-builder-with-submission-manager.6.0.4.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-registration-form-builder-with-submission-manager/"
+        },
+        {
             "name": "wpackagist-plugin/dark-mode-toggle-block",
             "version": "1.0.5",
             "source": {
@@ -1211,42 +1229,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-membership-form-shortcode/"
-        },
-        {
-            "name": "wpackagist-plugin/user-registration",
-            "version": "4.2.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/user-registration/",
-                "reference": "tags/4.2.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-registration.4.2.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/user-registration/"
-        },
-        {
-            "name": "wpackagist-plugin/userswp",
-            "version": "1.2.34",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/userswp/",
-                "reference": "tags/1.2.34"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/userswp.1.2.34.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/userswp/"
         },
         {
             "name": "wpackagist-plugin/webp-uploads",
