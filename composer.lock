@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d424b42b964beb10132b2f9c614db7cb",
+    "content-hash": "52a24bb2e6e085c8acf64ac2537c1f76",
     "packages": [
         {
             "name": "alexbracken/swpm-customizations",
@@ -1225,6 +1225,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-membership-custom-messages/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-membership-form-shortcode",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-membership-form-shortcode/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-membership-form-shortcode.zip?timestamp=1731907444"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-membership-form-shortcode/"
         },
         {
             "name": "wpackagist-plugin/user-registration",
