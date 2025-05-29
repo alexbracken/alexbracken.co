@@ -4,8 +4,40 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "34c48700f44352f75147379e441ea0c0",
+    "content-hash": "b6b7bd0704706a126f6b9f5edc5aa940",
     "packages": [
+        {
+            "name": "alexbracken/custom-redirect",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:alexbracken/custom-redirect.git",
+                "reference": "fe57e9e0c97c21fdc637b163d61f0745101fe4ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexbracken/custom-redirect/zipball/fe57e9e0c97c21fdc637b163d61f0745101fe4ca",
+                "reference": "fe57e9e0c97c21fdc637b163d61f0745101fe4ca",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^2.3"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "alexbracken",
+                    "email": "alex@alexbracken.co"
+                }
+            ],
+            "description": "Adds redirect to alexbracken.co membership system",
+            "support": {
+                "source": "https://github.com/alexbracken/custom-redirect/tree/main",
+                "issues": "https://github.com/alexbracken/custom-redirect/issues"
+            },
+            "time": "2025-05-29T17:47:49+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v2.3.0",
@@ -4553,6 +4585,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "alexbracken/custom-redirect": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
