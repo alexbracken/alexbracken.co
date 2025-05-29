@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexbracken/custom-redirect.git",
-                "reference": "fe57e9e0c97c21fdc637b163d61f0745101fe4ca"
+                "reference": "8a98c73c32d6d66495a3f2d49610b7ab49b6aaa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/custom-redirect/zipball/fe57e9e0c97c21fdc637b163d61f0745101fe4ca",
-                "reference": "fe57e9e0c97c21fdc637b163d61f0745101fe4ca",
+                "url": "https://api.github.com/repos/alexbracken/custom-redirect/zipball/8a98c73c32d6d66495a3f2d49610b7ab49b6aaa1",
+                "reference": "8a98c73c32d6d66495a3f2d49610b7ab49b6aaa1",
                 "shasum": ""
             },
             "require": {
@@ -36,7 +36,7 @@
                 "source": "https://github.com/alexbracken/custom-redirect/tree/main",
                 "issues": "https://github.com/alexbracken/custom-redirect/issues"
             },
-            "time": "2025-05-29T17:47:49+00:00"
+            "time": "2025-05-29T18:44:52+00:00"
         },
         {
             "name": "composer/installers",
@@ -2451,12 +2451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "ee2528399ca30fe65a23165183190be42c0b109a"
+                "reference": "c6007a53027047b08044448c57571988ac9b6e93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ee2528399ca30fe65a23165183190be42c0b109a",
-                "reference": "ee2528399ca30fe65a23165183190be42c0b109a",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c6007a53027047b08044448c57571988ac9b6e93",
+                "reference": "c6007a53027047b08044448c57571988ac9b6e93",
                 "shasum": ""
             },
             "conflict": {
@@ -2990,6 +2990,7 @@
                 "phpmyadmin/phpmyadmin": "<5.2.2",
                 "phpmyfaq/phpmyfaq": "<3.2.5|==3.2.5|>=3.2.10,<=4.0.1",
                 "phpoffice/common": "<0.2.9",
+                "phpoffice/math": "<=0.2",
                 "phpoffice/phpexcel": "<=1.8.2",
                 "phpoffice/phpspreadsheet": "<1.29.9|>=2,<2.1.8|>=2.2,<2.3.7|>=3,<3.9",
                 "phpseclib/phpseclib": "<2.0.47|>=3,<3.0.36",
@@ -3386,7 +3387,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-05-28T18:06:42+00:00"
+            "time": "2025-05-29T18:07:06+00:00"
         },
         {
             "name": "sebastian/diff",
