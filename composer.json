@@ -74,7 +74,8 @@
     "simple-membership/cloudflare-turnstile": "^1.0",
     "wpackagist-plugin/custom-registration-form-builder-with-submission-manager": "^6.0",
     "alexbracken/custom-redirect": "dev-main",
-    "wpackagist-plugin/check-email": "^2.0"
+    "wpackagist-plugin/check-email": "^2.0",
+    "wpackagist-plugin/mailin": "^3.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.10.3",
