@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6b7bd0704706a126f6b9f5edc5aa940",
+    "content-hash": "c35b99b317ae6b9e3dfbd92d112e82a4",
     "packages": [
         {
             "name": "alexbracken/custom-redirect",
@@ -1135,6 +1135,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/autodescription/"
+        },
+        {
+            "name": "wpackagist-plugin/check-email",
+            "version": "2.0.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/check-email/",
+                "reference": "tags/2.0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/check-email.2.0.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/check-email/"
         },
         {
             "name": "wpackagist-plugin/custom-registration-form-builder-with-submission-manager",
