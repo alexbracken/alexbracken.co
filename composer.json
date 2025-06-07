@@ -68,7 +68,7 @@
     "wpackagist-plugin/webp-uploads": "^2.2",
     "wpackagist-plugin/autodescription": "^5.0.6",
     "wpackagist-plugin/dark-mode-toggle-block": "^1.0",
-    "richtabor/kanso": "^1.0",
+    "richtabor/kanso": "dev-main",
     "wpackagist-plugin/simple-membership": "^4.6",
     "wpackagist-plugin/simple-membership-custom-messages": "^2.5",
     "simple-membership/cloudflare-turnstile": "^1.0",
