@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b4be9e1bee461c13616cbb4fc4e283e",
+    "content-hash": "c35ed1da37dd55075184bec9d62976e9",
     "packages": [
         {
             "name": "alexbracken/custom-redirect",
@@ -1211,15 +1211,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "21.0.0",
+            "version": "19.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/21.0.0"
+                "reference": "tags/19.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.21.0.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.19.0.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
