@@ -7,7 +7,7 @@ web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/cache/*
-web/app/themes/kanso
+web/app/themes/kanso*
 
 # WordPress
 web/wp
