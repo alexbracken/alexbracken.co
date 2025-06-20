@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b4be9e1bee461c13616cbb4fc4e283e",
+    "content-hash": "96225658fc01a9ad91d59979d5015e4c",
     "packages": [
         {
             "name": "alexbracken/custom-redirect",
@@ -378,16 +378,16 @@
         },
         {
             "name": "richtabor/kanso",
-            "version": "dev-main",
+            "version": "1.0.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexbracken/kanso.git",
-                "reference": "25f9226d7ba04d84040013a8b5d670e8f1002d22"
+                "reference": "0f92f2860fc9df0e75ff98cf8ceafb179b17de42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/25f9226d7ba04d84040013a8b5d670e8f1002d22",
-                "reference": "25f9226d7ba04d84040013a8b5d670e8f1002d22",
+                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/0f92f2860fc9df0e75ff98cf8ceafb179b17de42",
+                "reference": "0f92f2860fc9df0e75ff98cf8ceafb179b17de42",
                 "shasum": ""
             },
             "require": {
@@ -398,7 +398,6 @@
                 "squizlabs/php_codesniffer": "^3.10",
                 "wp-coding-standards/wpcs": "^3.1"
             },
-            "default-branch": true,
             "type": "wordpress-theme",
             "license": [
                 "MIT"
@@ -417,9 +416,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/alexbracken/kanso/tree/main"
+                "source": "https://github.com/alexbracken/kanso/tree/1.0.6.2"
             },
-            "time": "2025-06-07T13:53:58+00:00"
+            "time": "2025-04-28T20:46:48+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
@@ -2521,12 +2520,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "7dacc91c92dcf3b81a600376d2a2f693eff91e35"
+                "reference": "e3520a4c9a252831ae009f8bf79a8d2a32ba4936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/7dacc91c92dcf3b81a600376d2a2f693eff91e35",
-                "reference": "7dacc91c92dcf3b81a600376d2a2f693eff91e35",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/e3520a4c9a252831ae009f8bf79a8d2a32ba4936",
+                "reference": "e3520a4c9a252831ae009f8bf79a8d2a32ba4936",
                 "shasum": ""
             },
             "conflict": {
@@ -3110,7 +3109,7 @@
                 "processwire/processwire": "<=3.0.229",
                 "propel/propel": ">=2.0.0.0-alpha1,<=2.0.0.0-alpha7",
                 "propel/propel1": ">=1,<=1.7.1",
-                "pterodactyl/panel": "<1.11.8",
+                "pterodactyl/panel": "<=1.11.10",
                 "ptheofan/yii2-statemachine": ">=2.0.0.0-RC1-dev,<=2",
                 "ptrofimov/beanstalk_console": "<1.7.14",
                 "pubnub/pubnub": "<6.1",
@@ -3467,7 +3466,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-18T19:04:39+00:00"
+            "time": "2025-06-19T20:06:27+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -4667,7 +4666,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "alexbracken/custom-redirect": 20,
-        "richtabor/kanso": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
