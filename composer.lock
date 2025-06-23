@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96225658fc01a9ad91d59979d5015e4c",
+    "content-hash": "7b4be9e1bee461c13616cbb4fc4e283e",
     "packages": [
         {
             "name": "alexbracken/custom-redirect",
@@ -378,16 +378,16 @@
         },
         {
             "name": "richtabor/kanso",
-            "version": "1.0.6.2",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexbracken/kanso.git",
-                "reference": "0f92f2860fc9df0e75ff98cf8ceafb179b17de42"
+                "reference": "93701c189cd6bf13eee4bbaffc03ab38ce854cb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/0f92f2860fc9df0e75ff98cf8ceafb179b17de42",
-                "reference": "0f92f2860fc9df0e75ff98cf8ceafb179b17de42",
+                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/93701c189cd6bf13eee4bbaffc03ab38ce854cb0",
+                "reference": "93701c189cd6bf13eee4bbaffc03ab38ce854cb0",
                 "shasum": ""
             },
             "require": {
@@ -398,6 +398,7 @@
                 "squizlabs/php_codesniffer": "^3.10",
                 "wp-coding-standards/wpcs": "^3.1"
             },
+            "default-branch": true,
             "type": "wordpress-theme",
             "license": [
                 "MIT"
@@ -416,9 +417,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/alexbracken/kanso/tree/1.0.6.2"
+                "source": "https://github.com/alexbracken/kanso/tree/main"
             },
-            "time": "2025-04-28T20:46:48+00:00"
+            "time": "2025-06-23T00:09:53+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
@@ -4666,6 +4667,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "alexbracken/custom-redirect": 20,
+        "richtabor/kanso": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
