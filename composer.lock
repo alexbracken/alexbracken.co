@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9075663a86a041bd580dff3c5d30c87",
+    "content-hash": "f650ad7d8ae20ce3d0eb41ccd434e26e",
     "packages": [
         {
             "name": "alexbracken/custom-redirect",
@@ -37,6 +37,43 @@
                 "issues": "https://github.com/alexbracken/custom-redirect/issues"
             },
             "time": "2025-05-29T18:44:52+00:00"
+        },
+        {
+            "name": "alexbracken/post-meta-bindings",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexbracken/post-meta-bindings.git",
+                "reference": "c7e7633d48d0eea778dece88d57a4b14e7f49fdb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexbracken/post-meta-bindings/zipball/c7e7633d48d0eea778dece88d57a4b14e7f49fdb",
+                "reference": "c7e7633d48d0eea778dece88d57a4b14e7f49fdb",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^2.3",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.10",
+                "wp-coding-standards/wpcs": "^3.1"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "alexbracken",
+                    "email": "alex@alexbracken.co"
+                }
+            ],
+            "description": "Allows post data from query loops to be used in block bindings.",
+            "support": {
+                "source": "https://github.com/alexbracken/post-meta-bindings/tree/main",
+                "issues": "https://github.com/alexbracken/post-meta-bindings/issues"
+            },
+            "time": "2025-07-03T15:08:09+00:00"
         },
         {
             "name": "composer/installers",
@@ -4712,6 +4749,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "alexbracken/custom-redirect": 20,
+        "alexbracken/post-meta-bindings": 20,
         "richtabor/kanso": 20,
         "roave/security-advisories": 20,
         "westonruter/featured-image-block-with-caption": 20

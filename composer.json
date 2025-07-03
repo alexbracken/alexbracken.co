@@ -37,9 +37,13 @@
       "type": "vcs",
       "url": "https://github.com/alexbracken/kanso.git"
     },
-        {
+    {
       "type": "vcs",
       "url": "https://github.com/westonruter/featured-image-block-with-caption.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/alexbracken/post-meta-bindings.git"
     },
     {
       "type": "package",
@@ -82,7 +86,8 @@
     "wpackagist-plugin/simple-membership": "^4.6",
     "wpengine/advanced-custom-fields": "^6.4",
     "wpackagist-plugin/gutenberg": "^21.0",
-    "westonruter/featured-image-block-with-caption": "dev-main"
+    "westonruter/featured-image-block-with-caption": "dev-main",
+    "alexbracken/post-meta-bindings": "dev-main"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.10.3",
