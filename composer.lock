@@ -419,12 +419,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexbracken/kanso.git",
-                "reference": "eaa85479f6f4724576a2851c2ce908b46aa6a05d"
+                "reference": "298e30c0761810bf69036391ed2d3374555139a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/eaa85479f6f4724576a2851c2ce908b46aa6a05d",
-                "reference": "eaa85479f6f4724576a2851c2ce908b46aa6a05d",
+                "url": "https://api.github.com/repos/alexbracken/kanso/zipball/298e30c0761810bf69036391ed2d3374555139a4",
+                "reference": "298e30c0761810bf69036391ed2d3374555139a4",
                 "shasum": ""
             },
             "require": {
@@ -456,7 +456,7 @@
             "support": {
                 "source": "https://github.com/alexbracken/kanso/tree/main"
             },
-            "time": "2025-09-05T14:21:02+00:00"
+            "time": "2025-09-05T19:31:07+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
