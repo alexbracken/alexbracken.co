@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f650ad7d8ae20ce3d0eb41ccd434e26e",
+    "content-hash": "84b204388f9aad94f3e4fb8f4139a393",
     "packages": [
         {
             "name": "alexbracken/custom-redirect",
@@ -37,6 +37,56 @@
                 "issues": "https://github.com/alexbracken/custom-redirect/issues"
             },
             "time": "2025-05-29T18:44:52+00:00"
+        },
+        {
+            "name": "alexbracken/embed-post-preview",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexbracken/embed-post-preview.git",
+                "reference": "0fe3520547451c02ded20b5fd02f1f14ac5a7b58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexbracken/embed-post-preview/zipball/0fe3520547451c02ded20b5fd02f1f14ac5a7b58",
+                "reference": "0fe3520547451c02ded20b5fd02f1f14ac5a7b58",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^2.0",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "phpcs": "^3.7",
+                "phpstan/phpstan": "^1.10"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "AlexBracken\\EmbedPostPreview\\": "src/"
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "npm install"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Bracken",
+                    "email": "alex@alexbracken.com"
+                }
+            ],
+            "description": "A WordPress block for embedding post previews with full-site editing support. Allows nesting core blocks with context override to display any post's content.",
+            "support": {
+                "source": "https://github.com/alexbracken/embed-post-preview/tree/main",
+                "issues": "https://github.com/alexbracken/embed-post-preview/issues"
+            },
+            "time": "2025-12-18T19:56:38+00:00"
         },
         {
             "name": "alexbracken/post-meta-bindings",
@@ -2607,12 +2657,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "e5034c4df32edeafb119b2c1e2b58876d0286ea8"
+                "reference": "f960b7bc5c3bae7e348f7b65736072f74493bc3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/e5034c4df32edeafb119b2c1e2b58876d0286ea8",
-                "reference": "e5034c4df32edeafb119b2c1e2b58876d0286ea8",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f960b7bc5c3bae7e348f7b65736072f74493bc3a",
+                "reference": "f960b7bc5c3bae7e348f7b65736072f74493bc3a",
                 "shasum": ""
             },
             "conflict": {
@@ -2665,7 +2715,7 @@
                 "automad/automad": "<2.0.0.0-alpha5",
                 "automattic/jetpack": "<9.8",
                 "awesome-support/awesome-support": "<=6.0.7",
-                "aws/aws-sdk-php": "<3.288.1",
+                "aws/aws-sdk-php": "<3.368",
                 "azuracast/azuracast": "<=0.23.1",
                 "b13/seo_basics": "<0.8.2",
                 "backdrop/backdrop": "<=1.32",
@@ -3604,7 +3654,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-17T21:06:23+00:00"
+            "time": "2025-12-18T19:06:20+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -4919,6 +4969,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "alexbracken/custom-redirect": 20,
+        "alexbracken/embed-post-preview": 20,
         "alexbracken/post-meta-bindings": 20,
         "richtabor/kanso": 20,
         "roave/security-advisories": 20,
