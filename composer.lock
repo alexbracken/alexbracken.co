@@ -44,12 +44,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexbracken/embed-post-preview.git",
-                "reference": "33723184088781d242d1b2c596c1dcf8e59970bf"
+                "reference": "49c68e92a9ce7a8715215b56cb9698690c59c5c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexbracken/embed-post-preview/zipball/33723184088781d242d1b2c596c1dcf8e59970bf",
-                "reference": "33723184088781d242d1b2c596c1dcf8e59970bf",
+                "url": "https://api.github.com/repos/alexbracken/embed-post-preview/zipball/49c68e92a9ce7a8715215b56cb9698690c59c5c8",
+                "reference": "49c68e92a9ce7a8715215b56cb9698690c59c5c8",
                 "shasum": ""
             },
             "require": {
@@ -86,7 +86,7 @@
                 "source": "https://github.com/alexbracken/embed-post-preview/tree/main",
                 "issues": "https://github.com/alexbracken/embed-post-preview/issues"
             },
-            "time": "2025-12-21T18:20:09+00:00"
+            "time": "2025-12-21T18:27:02+00:00"
         },
         {
             "name": "alexbracken/post-meta-bindings",
