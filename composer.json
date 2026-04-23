@@ -89,7 +89,8 @@
     "wpackagist-plugin/gutenberg": "^21.0",
     "westonruter/featured-image-block-with-caption": "dev-main",
     "alexbracken/post-meta-bindings": "dev-main",
-    "alexbracken/embed-post-preview": "dev-main"
+    "alexbracken/embed-post-preview": "dev-main",
+    "wpackagist-plugin/galleryberg-gallery-block": "^1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.10.3",
