@@ -46,22 +46,6 @@
       "url": "https://github.com/alexbracken/post-meta-bindings.git"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "simple-membership/cloudflare-turnstile",
-        "version": "1.0",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://simple-membership-plugin.com/wp-content/uploads/addons/swpm-cloudflare-turnstile.zip"
-        }
-      }
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:alexbracken/custom-redirect.git"
-    },
-    {
       "type": "vcs",
       "url": "git@github.com:alexbracken/embed-post-preview.git"
     }
@@ -73,7 +57,7 @@
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0.4",
     "roots/bedrock-disallow-indexing": "^2.0",
-    "roots/wordpress": "^6.6.2",
+    "roots/wordpress": "^7.0",
     "roots/wp-config": "1.0.0",
     "wpackagist-theme/twentytwentyfour": "^1.2",
     "wpackagist-plugin/google-site-kit": "^1.138",
