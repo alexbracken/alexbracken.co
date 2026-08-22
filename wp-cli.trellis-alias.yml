@@ -1,0 +1,9 @@
+"@development":
+  ssh: "alexbracken.local"
+  path: "/srv/www/alexbracken.co/current/web/wp"
+"@production":
+  ssh: "web@ssh.alexbracken.co:22"
+  path: "/srv/www/alexbracken.co/current/web/wp"
+"@staging":
+  ssh: "web@staging.alexbracken.co:22"
+  path: "/srv/www/alexbracken.co/current/web/wp"
